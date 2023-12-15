@@ -33,7 +33,7 @@ document.querySelector('.check').addEventListener('click',function(){
             document.querySelector('.score').textContent=Score;
         }
         else if (guess==number){
-             document.querySelector('.message').textContent='Yeah Bitch...Correct Number😉🎉'
+             document.querySelector('.message').textContent='Correct Number😉🎉'
                 if(Score>Highscore){
                     Highscore=Score;
                     document.querySelector('.highscore').textContent=Highscore
@@ -45,7 +45,7 @@ document.querySelector('.check').addEventListener('click',function(){
                 document.querySelector('.message').style.fontSize='20px'
         }}
         else{
-            document.querySelector('.message').textContent="YOU LOST BITCH...!!!"
+            document.querySelector('.message').textContent="YOU LOST...!!!"
              document.querySelector('body').style.backgroundColor='#fa8072'
 
         }
@@ -57,7 +57,7 @@ document.querySelector('.again').addEventListener('click',function(){
     // console.log("You Clicked The Again Buttton")
     number=RandomNumber();
     document.querySelector('.score').textContent=20;
-    document.querySelector('.message').textContent='Again...Guess The Number Bitch...!!!'
+    document.querySelector('.message').textContent='Again...Guess The Number...!!!'
      document.querySelector('body').style.backgroundColor=' #020202'
      document.querySelector('.guess').value='';
 
